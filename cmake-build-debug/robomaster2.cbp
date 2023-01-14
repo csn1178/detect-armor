@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="robomaster2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Clion-openCV\;CMake Files\Clion-openCV\opencv\;CMake Files\Clion-openCV\opencv\mingw-build\;CMake Files\Clion-openCV\opencv\mingw-build\install\;CMake Files\Clion-openCV\opencv\mingw-build\install\x64\;CMake Files\Clion-openCV\opencv\mingw-build\install\x64\mingw\;CMake Files\Clion-openCV\opencv\mingw-build\install\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robomaster2">
+				<Option output="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/robomaster2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion-openCV/opencv/mingw-build/install/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 robomaster2"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="robomaster2/fast">
+				<Option output="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/robomaster2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion-openCV/opencv/mingw-build/install/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 robomaster2/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/20887/CLionProjects/robomaster2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Armor.cpp">
+			<Option target="robomaster2"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Armor.h">
+			<Option target="robomaster2"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/main.cpp">
+			<Option target="robomaster2"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Clion-openCV/opencv/mingw-build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\Clion-openCV\opencv\mingw-build\install\"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Clion-openCV/opencv/mingw-build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\Clion-openCV\opencv\mingw-build\install\"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Clion-openCV/opencv/mingw-build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\Clion-openCV\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Clion-openCV/opencv/mingw-build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\Clion-openCV\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/20887/CLionProjects/robomaster2/Clion-openCV/opencv/mingw-build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\Clion-openCV\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\robomaster2.dir/objects.a
+D:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\robomaster2.dir/objects.a @CMakeFiles\robomaster2.dir\objects1.rsp
+D:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\robomaster2.dir/objects.a -Wl,--no-whole-archive -o robomaster2.exe -Wl,--out-implib,librobomaster2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\robomaster2.dir\linklibs.rsp
